@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: HelloKitty;
+  src: url('assets/fonts/LMS Hello Kitty Hello.woff');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  color: #333333;
+  font-family: HelloKitty;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 15px;
+}
+
+.header-wrapper,
+.footer-wrapper {
+  height: 50px;
+  line-height: 50px;
+}
+
+.header-wrapper {
+  height: 100px;
+  line-height: 100px;
+}

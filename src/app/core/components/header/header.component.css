@@ -1,0 +1,12 @@
+.header {
+  background-color: #D9D9D9;
+  border-bottom: 1px solid #C9C9C9;
+  font-size: 52px;
+}
+
+.header-link {
+  margin-left: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #333333;
+}
